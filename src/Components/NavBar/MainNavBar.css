@@ -1,0 +1,22 @@
+.header {
+    font-family: "Fira Code", monospace;
+    height: 12%;
+
+    background: rgba(18, 19, 20, 1);
+    color: #fff;
+
+    display: grid;
+    position: fixed;
+
+    top: 0;
+    width: 100vw;
+
+    align-content: center;
+}
+
+.Nav {
+    grid-area: nav;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
