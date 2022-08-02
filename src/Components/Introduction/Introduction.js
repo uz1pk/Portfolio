@@ -7,7 +7,7 @@ function Introduction() {
 
       <div className="top-intro-section">
         <span className="top-intro-name-start">Welcome, my name is</span>
-        <h1 className="intro-text">Usman Zaheer.</h1>
+        <h1 className="intro-text">Usman Zaheer</h1>
       </div>
 
       <hr className="intro-line-split" />
