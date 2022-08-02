@@ -3,9 +3,13 @@ html, body {
 }
 
 body {
-  --brown: #A27B5C;
+  --bright-aqua: #66FCF1;
 
-  --dark-blue: #395B64;
+  --dark-aqua: #45A29E;
 
-  --gray: #2C3333;
+  --black: #0B0C10;
+
+  --dark-gray: #1F2833;
+
+  --light-gray: #C5C6C7;
 }

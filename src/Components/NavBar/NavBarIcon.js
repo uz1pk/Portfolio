@@ -12,7 +12,6 @@ function NavBarIcon({iconName, sectionLink }) {
             behavior: "smooth",
           })
         }
-        
         >
 
         <h3>{iconName}</h3>

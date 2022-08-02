@@ -1,22 +1,33 @@
 .header {
     font-family: "Fira Code", monospace;
-    height: 12%;
+    height: 12.5%;
 
-    background: rgba(18, 19, 20, 1);
+    background: linear-gradient(
+      90deg,
+      var(--black) 0%,
+      var(--dark-gray) 100%,
+      var(--light-gray) 100%
+    );
+
     color: #fff;
 
     display: grid;
+    grid-template-areas: "nav";
     position: fixed;
 
     top: 0;
     width: 100vw;
 
+    z-index: 10;
+    
     align-content: center;
-}
+} 
 
 .Nav {
     grid-area: nav;
     display: grid;
-    align-items: center;
-    justify-items: center;
-  }
+    grid-template-columns: repeat(6, auto);
+    align-items: left;
+    justify-items: left;
+    padding-left: 3rem;
+}
