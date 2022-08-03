@@ -1,8 +1,8 @@
-import "./TransitionDark.css";
+import "./TransitionLight.css";
 
-function TransitionDark() {
+function TransitionLight() {
     return (
-        <div className= {"TransitionDark "}>
+        <div className= {"TransitionLight "}>
             <svg
                 data-name="Layer 1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -10,10 +10,9 @@ function TransitionDark() {
                 preserveAspectRatio="none"
             >
                 <defs>
-                    <linearGradient id="dark" x1="0" y1="0" x2="1">
-                        <stop stop-color="var(--black)" />
-                        <stop offset="1" stop-color="var(--dark-gray)" />
-                        <stop offset="1" stop-color="var(--light-gray)" />
+                    <linearGradient id="light" x1="0" y1="1" x2="1">
+                        <stop stop-color="#b8c6db" />
+                        <stop offset=".8" stop-color="#f5f7fa" />
                     </linearGradient>
                 </defs>
                 <path
@@ -35,4 +34,4 @@ function TransitionDark() {
     );
 }
 
-export default TransitionDark;
+export default TransitionLight;

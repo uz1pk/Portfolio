@@ -1,19 +1,19 @@
-.TransitionDark {
+.TransitionLight {
     position: absolute;
     bottom: 0;
 
     width: 100%;
     
-    transform: scaleY(-1);
-}
-
-.TransitionDark svg {
+    transform: rotate(180deg);
+  }
+  
+.TransitionLight svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 82px;
 }
   
-.TransitionDark .shape-fill {
-    fill: url("#dark");
+.TransitionLight .shape-fill {
+    fill: url("#light");
 }

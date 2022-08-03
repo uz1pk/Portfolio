@@ -1,0 +1,28 @@
+.about {
+    display: flex;
+    padding-top: 20vh;
+    justify-content: center;
+    height: 90vh;
+
+    background: linear-gradient(
+        90deg,
+        var(--black) 0%,
+        var(--dark-gray) 100%,
+        var(--light-gray) 100%
+    );
+
+    position: relative;
+    color: white;
+}
+
+.about-main-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-paragraph {
+    font-family: "Fira Code", monospace;
+    max-width: 50vw;
+    padding-right: 50px;
+}
+

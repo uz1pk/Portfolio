@@ -24,7 +24,7 @@ function MainNavBar() {
 
                 <NavBarIcon 
                     iconName={"About Me"}
-                    sectionLink={"#aboutme"}
+                    sectionLink={"#about"}
                 />
                 <NavBarIcon
                     iconName={"Projects"}
