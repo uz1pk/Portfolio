@@ -1,6 +1,6 @@
 .about {
     display: flex;
-    padding-top: 20vh;
+    padding-top: 30vh;
     justify-content: center;
     height: 90vh;
 
@@ -18,11 +18,17 @@
 .about-main-text {
     display: flex;
     flex-direction: column;
+    font-size: xxx-large;
 }
 
 .about-paragraph {
-    font-family: "Fira Code", monospace;
-    max-width: 50vw;
     padding-right: 50px;
+    max-width: 50vw;
+    font-size: x-large;
 }
 
+.profile-picture {
+    border-radius: 50%;
+    border: 5px solid var(--bright-aqua);
+    box-shadow: var(--dark-aqua) 0px 20px 30px -10px;
+  }

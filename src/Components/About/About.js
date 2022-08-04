@@ -1,15 +1,17 @@
 import TransitionLight from "../TransitionLight/TransitionLight";
 
+import pfp from "./zoomedpfp.jpg"
+
 import { useEffect } from "react";
 
 import Aos from "aos";
 
-import "./About.css";
 import "aos/dist/aos.css";
+import "./About.css";
 
 function About() {
     useEffect(() => {
-        Aos.init({ duration: 3000 });
+        Aos.init({ duration: 1000 });
     }, []);
 
     return (
@@ -17,20 +19,28 @@ function About() {
 
             <div data-aos="fade-right" className="about-main-text">
 
-                <h2 className="about-header">About Me</h2>
+                <h1 className="about-header">About Me</h1>
 
-                <p className="about-paragraph">
+                <h1 className="about-paragraph">
                 Hi! My name is Usman Zaheer and I am a Third-Year Software Engineering
                 Student attending the University of Guelph.
-                This summer I finished as a backend and desktop application developer at Tiger Cat Industries. 
-                I am very interested in backend development, Infrastructure/Application Design, and Network/Security. 
-                As well, Artificial Intelligence/Machine Learning, IoT Devices, and finally Automated Embedded Systems.
-                </p>
+                This summer I interned at Tiger Cat Industries as a Backend and Desktop Application Developer. 
+                I am interested in Backend Development, Infrastructure/Application Design, and Network/Security. 
+                As well as, Artificial Intelligence/Machine Learning, IoT Devices, and finally Automated Embedded Systems.
+                </h1>
 
                 <br />
 
+
             </div>
 
+            <img
+                className="profile-picture"
+                src={pfp}
+                alt="Usman Profle"
+                width="400"
+                height="400"
+            />
             <TransitionLight/>
         </section>
     );

@@ -19,7 +19,7 @@ function MainNavBar() {
             <nav className="Nav">
                 <NavBarIcon 
                     iconName={"Home"}
-                    sectionLink={"#start"}
+                    sectionLink={"#introduction"}
                 />
 
                 <NavBarIcon 
