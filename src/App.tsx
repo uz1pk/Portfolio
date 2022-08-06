@@ -1,4 +1,5 @@
 import './App.css';
+
 import MainNavBar from "./Components/NavBar/MainNavBar";
 import Introduction from "./Components/Introduction/Introduction"
 import About from "./Components/About/About";

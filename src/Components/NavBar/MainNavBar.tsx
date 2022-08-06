@@ -1,15 +1,9 @@
 import "./MainNavBar.css";
+import "./NavBarIcon.css";
 
 import NavBarIcon from "./NavBarIcon";
 
-import "./NavBarIcon.css"
-
-import { Link } from "react-router-dom";
-
-
-
-//Update this for whichever resume you're going to use
-import pdfPath from "./UsmanZaheerResume.pdf"
+//import pdfPath from "./UsmanZaheerResume.pdf";
 
 function MainNavBar() {
     //Nav bar + nav bar buttons/items
@@ -31,13 +25,13 @@ function MainNavBar() {
                     sectionLink={"#projects"}
                 />
 
-                <Link
+                <a
                     className="navBarItem"
-                    to={pdfPath}
+                    href="./UsmanZaheerResume.pdf"
                     target="_blank"
-                    >
+                >
                     <h3>Resume</h3>
-                </Link>
+                </a>
             </nav>
 
         </header>
