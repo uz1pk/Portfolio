@@ -1,0 +1,47 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    background: linear-gradient(
+        90deg,
+        var(--black) 0%,
+        var(--dark-gray) 100%,
+        var(--light-gray) 100%
+    );
+    position: relative;
+}
+
+.main-contact-area {
+    max-width: 50vw;
+    padding-top: 10vh;
+    padding-left: 10vw;
+}
+
+.main-header {
+    font-size: xxx-large;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.options-section {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.link-icon {
+    color: var(--bright-aqua);
+    margin-right: 15px;
+}
+
+.main-text {
+    color: white;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.contact-main-link:hover {
+    transform: scale(1.1);
+    transform-origin: left;
+}

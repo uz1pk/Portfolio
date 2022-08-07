@@ -3,10 +3,7 @@ import "./NavBarIcon.css";
 
 import NavBarIcon from "./NavBarIcon";
 
-//import pdfPath from "./UsmanZaheerResume.pdf";
-
 function MainNavBar() {
-    //Nav bar + nav bar buttons/items
     return (
         <header className="header">
 
@@ -20,15 +17,19 @@ function MainNavBar() {
                     iconName={"About Me"}
                     sectionLink={"#about"}
                 />
+                
                 <NavBarIcon
                     iconName={"Projects"}
                     sectionLink={"#projects"}
                 />
 
+                <NavBarIcon
+                    iconName={"Contact Me"}
+                    sectionLink={"#end-page"}
+                />
                 <a
                     className="navBarItem"
-                    href="./UsmanZaheerResume.pdf"
-                    target="_blank"
+                    href={require('./UsmanZaheerResume.pdf')}
                 >
                     <h3>Resume</h3>
                 </a>

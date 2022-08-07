@@ -28,15 +28,15 @@ function Project1() {
                     <p className="proj-desc proj-body-text">
                         A self hosted SVG image processing/editing web application. 
                         Allows for users to do SVG uploading, viewing, editing and saving,
-                        which is completely self hosted with file cahcing done privately.
-                        Allowing for overall private, easy and fast user experience.
+                        which is completely self hosted with file caching done privately.
+                        Allowing for overall private, easy, and fast user experience.
                     </p>
 
                     <br/>
 
                     <p className="proj-tech-stack proj-body-text">
                         <b>
-                        C:/TechStack&gt; C · Express · Node.js · JavaScript · HTML/CSS
+                        C · Express · Node.js · JavaScript · HTML/CSS
                         </b>
                     </p>
 
@@ -48,7 +48,7 @@ function Project1() {
                         aria-label="=Website GitHub Repository"
                     >
                         <FaGithub className="proj-git" size={25} />
-                        <h3 className="prof-source-text">Repository</h3>
+                        <h3 className="proj-source-text">Repository</h3>
                     </a>
 
 

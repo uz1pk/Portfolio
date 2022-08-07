@@ -15,7 +15,7 @@ function project2() {
                     <p className="proj-desc proj-body-text">
                         My REST API is a one shoe fits all solution for any company or individual looking
                         for a secure server to build their solution media platform on top of.
-                        This Secure API, allows you to create accounts which are token authenticated, 
+                        This Secure API allows you to create accounts which are token authenticated, 
                         to perform full CRUD operations on user posts while also being able to
                         search and filter existing posts.
                     </p>
@@ -24,7 +24,7 @@ function project2() {
 
                     <p className="proj-tech-stack proj-body-text proj-tech-stack-dark">
                         <b>
-                        TechStack&gt; .NET 6 · C# · Azure · Docker · Azure SQL Server · JavaScript · HTML/CSS
+                        .NET 6 · C# · Azure · Docker · Azure SQL Server · JavaScript · HTML/CSS
                         </b>
                     </p>
 
@@ -35,8 +35,8 @@ function project2() {
                         rel="noopener noreferrer"
                         aria-label="=Website GitHub Repository"
                     >
-                        <FaGithub className="proj-git" size={25} />
-                        <h3 className="prof-source-text">Repository</h3>
+                        <FaGithub className="proj-git-dark" size={25} />
+                        <h3 className="proj-source-text-dark">Repository</h3>
                     </a>
 
 

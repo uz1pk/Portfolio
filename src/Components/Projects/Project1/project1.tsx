@@ -37,10 +37,11 @@ function Project1() {
 
                     <p className="proj-tech-stack proj-body-text">
                         <b>
-                        TechStack&gt; Flask · PostgreSQL · Heroku · HTML/CSS · JavaScript
+                        Flask · PostgreSQL · Heroku · JavaScript · HTML/CSS
                         </b>
                     </p>
 
+                    
                     <a
                         className="proj-source-light"
                         href="https://github.com/uz1pk/Computing-Chat"
@@ -49,7 +50,7 @@ function Project1() {
                         aria-label="=Website GitHub Repository"
                     >
                         <FaGithub className="proj-git" size={25} />
-                        <h3 className="prof-source-text">Repository</h3>
+                        <h3 className="proj-source-text">Repository</h3>
                     </a>
 
 
