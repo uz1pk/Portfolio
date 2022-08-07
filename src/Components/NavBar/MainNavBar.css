@@ -2,10 +2,10 @@
     height: 12.5%;
 
     background: linear-gradient(
-      90deg,
-      var(--black) 0%,
-      var(--dark-gray) 100%,
-      var(--light-gray) 100%
+        90deg,
+        var(--black) 0%,
+        var(--dark-gray) 100%,
+        var(--light-gray) 100%
     );
 
     color: #fff;
