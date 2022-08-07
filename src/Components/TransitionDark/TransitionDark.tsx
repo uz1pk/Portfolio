@@ -1,4 +1,3 @@
-import React from "react";
 import "./TransitionDark.css";
 
 function TransitionDark() {
