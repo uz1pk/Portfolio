@@ -13,7 +13,7 @@ function Project1() {
                 <img
                     className="proj-image"
                     src={shrinkly}
-                    alt="shrinkly main image"
+                    alt="shrinkly main"
                     width="50%"
                     height="auto"
                     loading="lazy"
