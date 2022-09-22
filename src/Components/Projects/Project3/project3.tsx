@@ -1,7 +1,7 @@
 import { FaGithub } from "react-icons/fa";
 import TransitionDark from "../../TransitionDark/TransitionDark";
-import svgApp from "./svgApp.png"
-import "../Projects.css"
+import shrinkly from "./shrinkly.png";
+import "../Projects.css";
 
 
 function Project1() {
@@ -12,8 +12,8 @@ function Project1() {
 
                 <img
                     className="proj-image"
-                    src={svgApp}
-                    alt="SVG app main area"
+                    src={shrinkly}
+                    alt="shrinkly main image"
                     width="50%"
                     height="auto"
                     loading="lazy"
@@ -22,14 +22,13 @@ function Project1() {
                 <div data-aos="fade-left" className="right-orientation-proj">
 
 
-                    <h3 className="proj-title">SVGShop</h3>
+                    <h3 className="proj-title">Shrinkly</h3>
 
 
                     <p className="proj-desc proj-body-text">
-                        A self hosted SVG image processing/editing web application. 
-                        Allows for users to do SVG uploading, viewing, editing and saving,
-                        which is completely self hosted with file caching done privately.
-                        Allowing for overall private, easy, and fast user experience.
+                        A self hosted Tiny URL generation platform. 
+                        Architected a Go REST API which supports CRUD, alongside having many search and utility endpoints.
+                        React consumes the API and utilizes SCSS to provide for a rich user experience.
                     </p>
 
                     <br/>
