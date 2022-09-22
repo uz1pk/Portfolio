@@ -24,7 +24,7 @@ function project2() {
 
                     <p className="proj-tech-stack proj-body-text proj-tech-stack-dark">
                         <b>
-                        .NET 6 · C# · Azure · Docker · Azure SQL Server · JavaScript · HTML/CSS
+                        .NET 6 · C# · Azure · Docker · Azure SQL Server · JavaScript
                         </b>
                     </p>
 

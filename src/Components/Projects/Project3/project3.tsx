@@ -35,13 +35,13 @@ function Project1() {
 
                     <p className="proj-tech-stack proj-body-text">
                         <b>
-                        C · Express · Node.js · JavaScript · HTML/CSS
+                        Golang · React · SCSS
                         </b>
                     </p>
 
                     <a
                         className="proj-source-light"
-                        href="https://github.com/uz1pk/SVGShop"
+                        href="https://github.com/uz1pk/Shrinkly"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="=Website GitHub Repository"

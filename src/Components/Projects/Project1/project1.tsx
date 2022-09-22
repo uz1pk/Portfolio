@@ -37,7 +37,7 @@ function Project1() {
 
                     <p className="proj-tech-stack proj-body-text">
                         <b>
-                        Flask · PostgreSQL · Heroku · JavaScript · HTML/CSS
+                        Flask · PostgreSQL · Heroku · JavaScript
                         </b>
                     </p>
 
