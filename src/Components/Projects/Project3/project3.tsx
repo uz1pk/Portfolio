@@ -35,7 +35,7 @@ function Project1() {
 
                     <p className="proj-tech-stack proj-body-text">
                         <b>
-                        Golang · React · SCSS · Docker
+                        Golang · React · Sass · Docker
                         </b>
                     </p>
 
