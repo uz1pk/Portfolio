@@ -29,7 +29,7 @@ function MainNavBar() {
                 />
                 <a
                     className="navBarItem"
-                    href={require('./UsmanZaheerResume.pdf')}
+                    href={require('./Usman_Zaheer_Resume.pdf')}
                 >
                     <h3>Resume</h3>
                 </a>
