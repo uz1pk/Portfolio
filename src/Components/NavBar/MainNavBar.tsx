@@ -8,16 +8,16 @@ function MainNavBar() {
         <header className="header">
 
             <nav className="Nav">
-                <NavBarIcon 
+                <NavBarIcon
                     iconName={"Home"}
                     sectionLink={"#introduction"}
                 />
 
-                <NavBarIcon 
+                <NavBarIcon
                     iconName={"About Me"}
                     sectionLink={"#about"}
                 />
-                
+
                 <NavBarIcon
                     iconName={"Projects"}
                     sectionLink={"#projects"}
@@ -27,16 +27,10 @@ function MainNavBar() {
                     iconName={"Contact Me"}
                     sectionLink={"#end-page"}
                 />
-                <a
-                    className="navBarItem"
-                    href={require('./Usman_Zaheer_Resume.pdf')}
-                >
-                    <h3>Resume</h3>
-                </a>
             </nav>
 
         </header>
     );
-  }
-  
-  export default MainNavBar;
+}
+
+export default MainNavBar;
