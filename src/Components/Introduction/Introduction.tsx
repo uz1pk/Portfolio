@@ -1,7 +1,7 @@
 import TransitionDark from "../TransitionDark/TransitionDark";
 import "./Introduction.css";
 
-function Introduction() {
+export function Introduction() {
   return (
     <section id="introduction" className="introduction">
 
@@ -17,9 +17,7 @@ function Introduction() {
         <h1 className="intro-text">University of Guelph</h1>
       </div>
 
-      <TransitionDark/>
+      <TransitionDark />
     </section>
   );
 }
-
-export default Introduction;

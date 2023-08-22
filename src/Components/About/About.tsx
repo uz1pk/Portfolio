@@ -1,4 +1,4 @@
-import { useEffect }  from 'react';
+import { useEffect } from 'react';
 import TransitionLight from "../TransitionLight/TransitionLight";
 import Aos from "aos";
 import myPfp from "./zoomedpfp.jpg";
@@ -6,8 +6,7 @@ import myPfp from "./zoomedpfp.jpg";
 import "aos/dist/aos.css";
 import "./About.css";
 
-function About() {
-
+export function About() {
     useEffect(() => {
         Aos.init({ duration: 1000 });
     }, []);
@@ -19,29 +18,31 @@ function About() {
 
                 <h1 className="about-header">About Me</h1>
 
-                <h1 className="about-paragraph">
-                    Hi! My name is Usman Zaheer and I am a Third-Year Software Engineering
-                    Student attending the University of Guelph.
-                    This summer I interned at Tiger Cat Industries as a Backend and Desktop Application Developer. 
-                    I am interested in Backend Development, Infrastructure/Application Design, and Network/Security. 
-                    As well as, Artificial Intelligence/Machine Learning, IoT Devices, and finally Automated Embedded Systems.
+                <h1 className="about-text">
+                    Hi! My name is Usman Zaheer and I am a Fourth Year Software Engineering at the University of Guelph.
                 </h1>
 
                 <br />
 
+                <h1 className="about-text">
+                    This summer I interned at Palantir as a Software Engineer Intern.
+                </h1>
 
+                <br />
+
+                <h1 className="about-text">
+                    I'm interested in distributed systems, networking, cloud computing, and backend development.
+                </h1>
             </div>
 
             <img
                 className="profile-picture"
                 src={myPfp}
-                alt="Usman Profle"
+                alt="Usman Profile"
                 width="400"
                 height="400"
             />
-            <TransitionLight/>
+            <TransitionLight />
         </section>
     );
 }
-
-export default About;

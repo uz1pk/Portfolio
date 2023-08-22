@@ -1,16 +1,56 @@
-import Project1 from "./Project1/project1";
-import Project2 from "./Project2/project2";
-import Project3 from "./Project3/project3"
+import { Project, ProjectProps } from "./Project";
+import chatExample from "./images/ChatExample.png"
+import apiImg from "./images/apiImg.png"
+import shrinkly from "./images/shrinkly.png"
+import TransitionDark from "../TransitionDark/TransitionDark";
 
-//<Project2 />
-function Projects() {
+const projects: ReadonlyArray<ProjectProps> = [
+  // Project 1
+  {
+    projectTitle: "Computing Chat",
+    imageData: {
+      source: chatExample,
+      alt: "Computing Chat Chat Room Example",
+    },
+    techStack: "Flask · PostgreSQL · Heroku · JavaScript",
+    githubRepoLink: "https://github.com/uz1pk/Computing-Chat",
+  },
+
+  // Project 2
+  {
+    projectTitle: "Social Media Infrastructure API",
+    imageData: {
+      source: apiImg,
+      alt: "Social Media Infrastructure API",
+    },
+    techStack: ".NET 6 · C# · Azure · Docker · Azure SQL Server · JavaScript",
+    githubRepoLink: "https://github.com/uz1pk/Social-Media-Post-API",
+  },
+
+  // Project 3
+  {
+    projectTitle: "Shrinkly",
+    imageData: {
+      source: shrinkly,
+      alt: "Shrinkly Example",
+    },
+    techStack: "Golang · React · Sass · Docker",
+    githubRepoLink: "https://github.com/uz1pk/Shrinkly",
+  },
+];
+
+export function ProjectsSection() {
   return (
-    <section id="projects" className="projects">
-      <Project1/>
-      <Project2/>
-      <Project3/>
-    </section>
+    <article className="light-theme">
+      <section id="projects" className="project-container project" >
+        {
+          projects.map((project, idx) => {
+            return <Project key={idx} {...project} />
+          })
+        }
+        <TransitionDark />
+      </section>
+    </article>
   );
 }
 
-export default Projects;

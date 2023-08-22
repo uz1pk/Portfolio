@@ -1,29 +1,24 @@
 import './App.css';
+import { NavBar } from "./Components/NavBar/MainNavBar";
+import { Introduction } from "./Components/Introduction/Introduction"
+import { About } from "./Components/About/About";
+import { ProjectsSection } from "./Components/Projects/Projects";
+import { EndPage } from './Components/EndPage/EndPage';
 
-import MainNavBar from "./Components/NavBar/MainNavBar";
-import Introduction from "./Components/Introduction/Introduction"
-import About from "./Components/About/About";
-import Projects from "./Components/Projects/Projects";
-import EndPage from './Components/EndPage/EndPage';
-
-//import { BrowserRouter as Route, Switch, Router } from "react-router-dom";
-
-function App() {
+export function App() {
   return (
     <div className="App">
 
-      <MainNavBar/>
-      
-      <Introduction/>
+      <NavBar />
 
-      <About/>
+      <Introduction />
 
-      <Projects/>
-      
-      <EndPage/>
-      
+      <About />
+
+      <ProjectsSection />
+
+      <EndPage />
+
     </div>
   );
 }
-
-export default App;

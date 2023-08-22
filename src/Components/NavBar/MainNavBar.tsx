@@ -1,13 +1,12 @@
 import "./MainNavBar.css";
 import "./NavBarIcon.css";
+import { NavBarIcon } from "./NavBarIcon";
 
-import NavBarIcon from "./NavBarIcon";
-
-function MainNavBar() {
+export function NavBar() {
     return (
         <header className="header">
 
-            <nav className="Nav">
+            <nav className="nav">
                 <NavBarIcon
                     iconName={"Home"}
                     sectionLink={"#introduction"}
@@ -32,5 +31,3 @@ function MainNavBar() {
         </header>
     );
 }
-
-export default MainNavBar;

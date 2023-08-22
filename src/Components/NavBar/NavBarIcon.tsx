@@ -1,29 +1,27 @@
 import { NavHashLink } from 'react-router-hash-link';
 import "./NavBarIcon.css";
 
-type Props = {
+export interface NavBarIconProps {
   iconName: string,
   sectionLink: string,
 }
 
-function NavBarIcon({ iconName, sectionLink }: Props) {
+export function NavBarIcon({ iconName, sectionLink }: NavBarIconProps) {
   return (
-<NavHashLink
-    to={`/${sectionLink}`}
-    className="navBarItem"
+    <NavHashLink
+      to={`/${sectionLink}`}
+      className="nav-bar-item"
 
-    scroll={(x) =>
-      x.scrollIntoView({
-        behavior: "smooth",
-      })
-    }
-  >
+      scroll={(x) =>
+        x.scrollIntoView({
+          behavior: "smooth",
+        })
+      }
+    >
 
-    <h3>{iconName}</h3>
+      <h3>{iconName}</h3>
 
-  </NavHashLink>
+    </NavHashLink>
   );
-  
+
 }
-  
-export default NavBarIcon;
