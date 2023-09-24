@@ -1,4 +1,4 @@
-import TransitionDark from "../TransitionDark/TransitionDark";
+import { TransitionDark } from "../TransitionDark/TransitionDark";
 import "./Introduction.css";
 
 export function Introduction() {

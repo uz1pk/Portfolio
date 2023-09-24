@@ -1,10 +1,10 @@
-import { Project, ProjectProps } from "./Project";
+import { Project } from "./Project";
 import chatExample from "./images/ChatExample.png"
 import apiImg from "./images/apiImg.png"
 import shrinkly from "./images/shrinkly.png"
-import TransitionDark from "../TransitionDark/TransitionDark";
+import { TransitionDark } from "../TransitionDark/TransitionDark";
 
-const projects: ReadonlyArray<ProjectProps> = [
+const projects: ReadonlyArray<Project.Props> = [
   // Project 1
   {
     projectTitle: "Computing Chat",

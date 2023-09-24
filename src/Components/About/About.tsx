@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import TransitionLight from "../TransitionLight/TransitionLight";
+import { TransitionLight } from "../TransitionLight/TransitionLight";
 import Aos from "aos";
 import myPfp from "./zoomedpfp.jpg";
 

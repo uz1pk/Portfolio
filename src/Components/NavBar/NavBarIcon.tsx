@@ -6,7 +6,7 @@ export interface NavBarIconProps {
   sectionLink: string,
 }
 
-export function NavBarIcon({ iconName, sectionLink }: NavBarIconProps) {
+export const NavBarIcon: (props: NavBarIconProps) => JSX.Element = ({ iconName, sectionLink }) => {
   return (
     <NavHashLink
       to={`/${sectionLink}`}
@@ -23,5 +23,4 @@ export function NavBarIcon({ iconName, sectionLink }: NavBarIconProps) {
 
     </NavHashLink>
   );
-
 }

@@ -1,16 +1,18 @@
 import { FaGithub } from "react-icons/fa";
 import "./Projects.css";
 
-export interface ImageMetaData {
-    source: string;
-    alt: string;
-}
+export namespace Project {
+    export interface ImageMetaData {
+        source: string;
+        alt: string;
+    }
 
-export interface ProjectProps {
-    projectTitle: string;
-    imageData: ImageMetaData;
-    techStack: string;
-    githubRepoLink: string;
+    export interface Props {
+        projectTitle: string;
+        imageData: ImageMetaData;
+        techStack: string;
+        githubRepoLink: string;
+    }
 }
 
 export function Project({
@@ -18,7 +20,7 @@ export function Project({
     imageData,
     techStack,
     githubRepoLink,
-}: ProjectProps) {
+}: Project.Props) {
     return (
         <div className="grid-item">
             <img

@@ -26,6 +26,13 @@ export function NavBar() {
                     iconName={"Contact Me"}
                     sectionLink={"#end-page"}
                 />
+
+                {/* <a
+                    className="navBarItem"
+                    href={require('./Usman_Zaheer_Resume.pdf')}
+                >
+                    <h3>Resume</h3>
+                </a> */}
             </nav>
 
         </header>
